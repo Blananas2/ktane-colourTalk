@@ -212,11 +212,12 @@ public class colourTalkScript : MonoBehaviour
         {
             { "Filename", "ColourTalkSettings.json" },
             { "Name", "Colo(u)r Talk Settings" },
-            { "Listing", new List<Dictionary<string, object>>{
+            { "Listings", new List<Dictionary<string, object>>{
                 new Dictionary<string, object>
                 {
                     { "Key", "preventTerms" },
-                    { "Text", "Will prevent phrases generating with any of these terms. Example: 'alpha;bravo;charlie'" }
+                    { "Text", "Prevent Terms" },
+                    { "Description", "Make phrases with these terms not generate. Separate with semicolons." }
                 },
             } }
         }
